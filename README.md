@@ -1,9 +1,8 @@
 # frlab_final_project_templates
 
----
-
 foundations of robotics final project templates
 
+additional matlab example templates are found at [FR_Lab03_Templates](https://github.com/AIResearchLab/FR_Lab03_Templates)
 
 ## get the code and build
 
