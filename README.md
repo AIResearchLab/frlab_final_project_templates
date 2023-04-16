@@ -51,6 +51,6 @@ Change the launch file arguments
 Or input command line arguments for the launch file
 
 ```bash
-roslaunch frlab_final_project_templates ball_maze.launch x:=1.4 y:=2.0
+roslaunch frlab_final_project_templates ball_maze.launch x_pos:=1.4 y_pos:=2.0
 ```
 
