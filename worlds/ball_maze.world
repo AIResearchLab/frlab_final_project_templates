@@ -224,7 +224,7 @@
     </light>
 
     <scene>
-      <ambient>0.5 0.5 0.5 1</ambient>
+      <ambient>0.55 0.55 0.55 1</ambient>
       <background>0.7 0.7 0.7 1</background>
       <shadows>true</shadows>
     </scene>

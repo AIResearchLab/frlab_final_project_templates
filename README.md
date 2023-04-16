@@ -34,3 +34,24 @@ roslaunch frlab_final_project_templates ball_maze.launch
 export TURTLEBOT3_MODEL=waffle_pi
 roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
 ```
+
+
+## starting in a new position
+
+Change the launch file arguments
+
+```xml
+<!--in the ball_maze.launch file-->
+<!--change the x and y arguments-->
+
+<!--for example-->
+<arg name="x_pos" default="1.4"/>
+<arg name="y_pos" default="2.0"/>
+```
+
+Or input command line arguments for the launch file
+
+```bash
+roslaunch frlab_final_project_templates ball_maze.launch x:=1.4 y:=2.0
+```
+
