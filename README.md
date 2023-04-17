@@ -7,7 +7,7 @@ additional matlab example templates are found at [FR_Lab03_Templates](https://gi
 ## get the code and build
 
 ```bash
-# in a terminal
+# in a terminal on host
 mkdir -p catkin_ws/src
 cd catkin_ws/src
 
@@ -21,7 +21,7 @@ catkin_make
 ## running the simulation
 
 ```bash
-# in a terminal
+# in a terminal on host
 roslaunch frlab_final_project_templates ball_maze.launch
 ```
 
@@ -29,7 +29,7 @@ roslaunch frlab_final_project_templates ball_maze.launch
 ## moving the turtlebot
 
 ```bash
-# in a terminal
+# in a terminal on host
 export TURTLEBOT3_MODEL=waffle_pi
 roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
 ```
