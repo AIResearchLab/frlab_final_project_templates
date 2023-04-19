@@ -17,6 +17,14 @@ cd ../
 catkin_make
 ```
 
+## sourcing code in terminal
+
+```bash
+# in every new terminal make sure to setup the build sources
+source catkin_ws/devel/setup.bash
+
+# followed by ros cli commands
+```
 
 ## running the simulation
 
